@@ -1,0 +1,8 @@
+{
+  "newsletter": {
+    "props": {
+      "label": "Fique por dentro de nossas novidades!",
+      "placeholder": "Ex: email@email.com.br"
+    }
+  }
+}

@@ -1,59 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "info-card#main",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "flex-layout.row#home-section-1",
+      "flex-layout.row#home-section-2",
       "newsletter"
     ]
-  },
-  "info-card#main": {
-    "props": {
-      "blockClass": "info-card-main",
-      "id": "info-card-main",
-      "isFullModeStyle": false,
-      "textAlignment": "left",
-      "textPosition": "left",
-      "imageUrl": "assets/images/info-card-home.png",
-      "textMode": "rich-text",
-      "headline": "# Aspire a um Lar Impecável",
-      "subhead": "Descubra a limpeza inteligente com o nosso aspirador de pó robô. \n\n Eficiência, controle e conveniência ao seu alcance.",
-      "callToActionText": "Conheça Mais",
-      "callToActionUrl": "/newly-launched"
-    }
-  },
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "## Novidades",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-  "newsletter": {
-    "props": {
-      "label": "Fique por dentro de nossas novidades!",
-      "placeholder": "Ex: email@email.com.br"
-    }
   }
 }

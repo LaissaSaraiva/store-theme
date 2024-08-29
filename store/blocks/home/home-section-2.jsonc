@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#home-section-2": {
+    "title": "Home - Section 2",
+    "props": {
+      "blockClass": "home-section-2"
+    },
+    "children": ["flex-layout.col#home-shelf"]
+  },
+
+  "flex-layout.col#home-shelf": {
+    "props": {},
+    "children": ["rich-text#shelf-title", "flex-layout.row#shelf"]
+  },
+  "rich-text#shelf-title": {
+    "title": "Shelf Title",
+    "props": {
+      "text": "## Novidades",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

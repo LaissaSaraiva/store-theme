@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#home-section-1": {
+    "title": "Home - Section 1",
+    "props": {
+      "blockClass": "home-section-1"
+    },
+    "children": ["info-card#main"]
+  },
+
+  "info-card#main": {
+    "title": "Home - InfoCard",
+    "props": {
+      "blockClass": "info-card-main",
+      "id": "info-card-main",
+      "isFullModeStyle": false,
+      "textAlignment": "left",
+      "textPosition": "left",
+      "imageUrl": "assets/images/info-card-home.png",
+      "textMode": "rich-text",
+      "headline": "# Aspire a um Lar Impecável",
+      "subhead": "Descubra a limpeza inteligente com o nosso aspirador de pó robô. \n\n Eficiência, controle e conveniência ao seu alcance.",
+      "callToActionText": "Conheça Mais",
+      "callToActionUrl": "/newly-launched"
+    }
+  }
+}
