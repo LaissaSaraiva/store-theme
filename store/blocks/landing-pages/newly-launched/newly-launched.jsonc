@@ -1,0 +1,9 @@
+{
+  "store.custom#newly-launched": {
+    "parent": {
+      "header": "header",
+      "footer": "footer"
+    },
+    "blocks": ["flex-layout.row#section-1"]
+  }
+}
