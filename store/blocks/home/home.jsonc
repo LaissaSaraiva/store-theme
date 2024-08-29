@@ -1,53 +1,30 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "__fold__",
+      "info-card#main",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
       "newsletter"
     ]
   },
-
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "info-card#main": {
     "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
-      ]
+      "blockClass": "info-card-main",
+      "id": "info-card-main",
+      "isFullModeStyle": false,
+      "textAlignment": "left",
+      "textPosition": "left",
+      "imageUrl": "assets/images/info-card-home.png",
+      "textMode": "rich-text",
+      "headline": "# Aspire a um Lar Impecável",
+      "subhead": "Descubra a limpeza inteligente com o nosso aspirador de pó robô. \n\n Eficiência, controle e conveniência ao seu alcance.",
+      "callToActionText": "Conheça Mais",
+      "callToActionUrl": "/newly-launched"
     }
   },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
-  },
-
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Novidades",
       "blockClass": "shelfTitle"
     }
   },
@@ -73,32 +50,10 @@
       "blockClass": "shelf"
     }
   },
-
-  "info-card#home": {
+  "newsletter": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "label": "Fique por dentro de nossas novidades!",
+      "placeholder": "Ex: email@email.com.br"
     }
   }
 }
