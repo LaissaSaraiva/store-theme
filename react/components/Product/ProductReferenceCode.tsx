@@ -1,6 +1,6 @@
 import React from "react";
 import { useCssHandles } from "vtex.css-handles";
-import { ProductProps } from "./index";
+import { ProductProps } from "./interfaces";
 
 const PRODUCT_REF_HANDLES = ["productReferenceCode"] as const;
 
