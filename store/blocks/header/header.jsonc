@@ -6,33 +6,13 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
-    ]
+    "children": ["notification.bar", "sticky-layout#4-desktop"]
   },
 
-  "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
+  "notification.bar": {
     "props": {
-      "fullWidth": true
+      "content": "Lançamento : Aspirador de Pó Inteligente!!"
     }
-  },
-  
-  "flex-layout.row#3-desktop": {
-    "props": {
-      "blockClass": "menu-link",
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ]
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -59,7 +39,6 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -80,22 +59,30 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "assets/images/logo.svg",
+      "width": "200",
+      "height": "30"
+    }
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": ["notification.bar", "sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
       "flex-layout.col#spacer",
+      "logo#mobile",
+      // "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],
@@ -109,25 +96,25 @@
   "drawer": {
     "children": ["menu#drawer"]
   },
-
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
       "menu-item#category-home",
+      "menu-item#category-faq",
       "menu-item#more"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "assets/images/logo.svg",
+      "height": "20"
     }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": ["search-bar"]
   }
 }
