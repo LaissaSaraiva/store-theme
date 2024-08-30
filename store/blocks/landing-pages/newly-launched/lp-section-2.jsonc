@@ -8,6 +8,11 @@
   },
   "flex-layout.col#section-2-col-1": {
     "props": {},
-    "children": []
+    "children": ["custom-product"]
+  },
+  "custom-product": {
+    "props": {
+      "productName": "Aspirador de Pó Inteligente"
+    }
   }
 }
