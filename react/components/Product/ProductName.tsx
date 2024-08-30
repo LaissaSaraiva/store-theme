@@ -6,5 +6,5 @@ const PRODUCT_NAME_HANDLES = ["productName"] as const;
 
 export const ProductName: React.FC<ProductProps> = ({ productName }) => {
   const { handles } = useCssHandles(PRODUCT_NAME_HANDLES);
-  return <div className={handles.productName}>{productName}</div>;
+  return <h3 className={handles.productName}>{productName}</h3>;
 };
