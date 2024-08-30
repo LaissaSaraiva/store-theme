@@ -12,6 +12,7 @@
   },
   "custom-product": {
     "props": {
+      "productRatings": "assets/images/product-ratings.png",
       "productName": "Aspirador de Pó Inteligente"
     }
   }
