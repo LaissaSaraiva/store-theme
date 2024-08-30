@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#section-3": {
+    "title": "LP - Section 3",
+    "props": {
+      "blockClass": "newly-launched-section-3"
+    },
+    "children": ["flex-layout.col#section-3-col-1"]
+  },
+  "flex-layout.col#section-3-col-1": {
+    "props": {},
+    "children": ["rich-text#section-3-shelf-title", "flex-layout.row#shelf"]
+  },
+  "rich-text#section-3-shelf-title": {
+    "title": "Shelf Title",
+    "props": {
+      "text": "## Confira outras Novidades",
+      "blockClass": "shelfTitle"
+    }
+  }
+}

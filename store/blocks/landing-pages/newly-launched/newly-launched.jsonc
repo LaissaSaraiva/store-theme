@@ -4,6 +4,11 @@
       "header": "header",
       "footer": "footer"
     },
-    "blocks": ["flex-layout.row#section-1", "flex-layout.row#section-2"]
+    "blocks": [
+      "flex-layout.row#section-1",
+      "flex-layout.row#section-2",
+      "flex-layout.row#section-3",
+      "flex-layout.row#section-4"
+    ]
   }
 }
