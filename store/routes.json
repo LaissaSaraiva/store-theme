@@ -1,5 +1,8 @@
 {
   "store.custom#newly-launched": {
     "path": "/newly-launched"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
   }
 }
