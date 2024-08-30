@@ -1,9 +1,9 @@
 {
   "store.home": {
     "blocks": [
+      "modal-trigger#newsletter",
       "flex-layout.row#home-section-1",
-      "flex-layout.row#home-section-2",
-      "newsletter"
+      "flex-layout.row#home-section-2"
     ]
   }
 }

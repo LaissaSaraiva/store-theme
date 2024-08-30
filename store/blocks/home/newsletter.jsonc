@@ -1,8 +1,36 @@
 {
-  "newsletter": {
+  "modal-trigger#newsletter": {
     "props": {
-      "label": "Fique por dentro de nossas novidades!",
-      "placeholder": "Ex: email@email.com.br"
+      "trigger": "load-session"
+    },
+    "children": ["modal-layout#newsletter"]
+  },
+  "modal-layout#newsletter": {
+    "children": ["flex-layout.row#section-newsletter"]
+  },
+  "flex-layout.row#section-newsletter": {
+    "title": "Newsletter",
+    "props": {
+      "blockClass": "section-newsletter"
+    },
+    "children": ["image#newsletter", "newsletter-form"]
+  },
+  "image#newsletter": {
+    "title": "Newsletter - Image",
+    "props": {
+      "src": "assets/images/newsletter.png",
+      "alt": "Imagem de uma mulher com um aspirador de pó inteligente",
+      "title": "Aspirador",
+      "maxHeight": 400,
+      "blockClass": "newsletter"
     }
+  },
+  "newsletter-form": {
+    "title": "Newsletter -  Form",
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
   }
 }
