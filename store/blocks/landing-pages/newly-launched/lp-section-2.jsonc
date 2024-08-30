@@ -1,5 +1,6 @@
 {
   "flex-layout.row#section-2": {
+    "title": "LP - Section 2",
     "props": {
       "blockClass": "newly-launched-section-2"
     },

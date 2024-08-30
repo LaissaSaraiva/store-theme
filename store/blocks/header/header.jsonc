@@ -6,10 +6,12 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
+    "title": "Header - Desktop",
     "children": ["notification.bar", "sticky-layout#4-desktop"]
   },
 
   "notification.bar": {
+    "title": "Notification Bar - Desktop & Mobile",
     "props": {
       "content": "Lançamento : Aspirador de Pó Inteligente!!"
     }
@@ -72,6 +74,7 @@
     }
   },
   "header-layout.mobile": {
+    "title": "Header - Mobile",
     "children": ["notification.bar", "sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {

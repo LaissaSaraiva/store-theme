@@ -3,6 +3,7 @@
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
+    "title": "Footer - Desktop",
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
@@ -10,6 +11,7 @@
     ]
   },
   "flex-layout.row#footer-1-desktop": {
+    "title": "Footer - Top",
     "children": [
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
@@ -25,6 +27,7 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
+    "title": "Footer - Main",
     "children": ["accepted-payment-methods", "social-networks", "powered-by"],
     "props": {
       "blockClass": "payment-methods"
@@ -65,6 +68,7 @@
     }
   },
   "flex-layout.row#footer-3-desktop": {
+    "title": "Footer - Bottom",
     "children": ["rich-text#footer-copyright"],
     "props": {
       "blockClass": "credits"
@@ -72,12 +76,14 @@
   },
 
   "footer-layout.mobile": {
+    "title": "Footer - Mobile",
     "children": [
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
+    "title": "Footer - Icons",
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
       "blockClass": "payment-methods",
@@ -107,6 +113,7 @@
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
   },
   "rich-text#footer-copyright": {
+    "title": "Footer - copyright",
     "props": {
       "text": "© 2024 ClearChoicePantry Innovations. Todos os direitos reservados.\n *ClearChoicePantry* é uma marca registrada. Todas as imagens, textos, e conteúdos deste site são protegidos por leis de direitos autorais e propriedade intelectual. Qualquer reprodução, distribuição, ou uso não autorizado dos materiais presentes neste site é estritamente proibido sem o consentimento prévio por escrito de ClearChoicePantry Innovations.",
       "blockClass": "footer"

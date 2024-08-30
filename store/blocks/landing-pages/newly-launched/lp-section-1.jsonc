@@ -1,5 +1,6 @@
 {
   "flex-layout.row#section-1": {
+    "title": "LP - Section 1",
     "props": {
       "blockClass": "newly-launched-section-1"
     },
@@ -13,6 +14,7 @@
     "children": ["rich-text#section-1"]
   },
   "rich-text#section-1": {
+    "title": "LP - Description",
     "props": {
       "text": "# Revolucione a Limpeza da Sua Casa\n\n Com o nosso aspirador de pó inteligente, cada canto do seu lar estará sempre impecável. Tecnologia de ponta para uma limpeza sem esforço.",
       "textColor": "black",
@@ -26,6 +28,7 @@
     "children": ["image#section-1"]
   },
   "image#section-1": {
+    "title": "LP - Image",
     "props": {
       "src": "assets/images/product-1.png",
       "alt": "Imagem de uma mulher com um aspirador de pó inteligente",
