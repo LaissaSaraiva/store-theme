@@ -12,8 +12,11 @@
   },
   "custom-product": {
     "props": {
+      "productImage": "assets/images/product-image.png",
       "productRatings": "assets/images/product-ratings.png",
-      "productName": "Aspirador de Pó Inteligente"
+      "productName": "Aspirador de Pó Inteligente",
+      "productReferenceCode": "Cod: 123456789",
+      "productPrice": "2159"
     }
   }
 }

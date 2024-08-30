@@ -1,5 +1,6 @@
 import React from "react";
 import { ProductProps } from "./interfaces";
+import { ProductImage } from "./ProductImage";
 import { ProductName } from "./ProductName";
 import { ProductPrice } from "./ProductPrice";
 import { ProductRatings } from "./ProductRatings";
@@ -15,6 +16,7 @@ const Product: StorefrontFunctionComponent<ProductProps> = (props) => {
       <ProductName productName={props.productName} />
       <ProductReferenceCode productReferenceCode={props.productReferenceCode} />
       <ProductPrice price={props.productPrice} />
+      <ProductImage src={props.productImage} />
     </ProductWrapper>
   );
 };

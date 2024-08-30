@@ -10,3 +10,7 @@ export interface ProductProps {
 export interface ProductPriceProps {
   price?: string;
 }
+
+export interface ProductImageProps {
+  src?: string;
+}
