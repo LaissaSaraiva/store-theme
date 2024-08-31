@@ -5,9 +5,11 @@
   "flex-layout.row#faq": {
     "props": {
       "blockClass": "faq",
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "paddingTop": 6,
+      "paddingBottom": 7
     },
     "children": ["flex-layout.col#faq"]
   },

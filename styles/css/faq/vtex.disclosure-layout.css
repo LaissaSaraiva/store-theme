@@ -1,8 +1,12 @@
 .trigger--question {
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-between;
   cursor: pointer;
   outline: none;
+  gap: 20px;
 }
 
 .trigger--question :global(.vtex-rich-text-0-x-paragraph) {
@@ -11,7 +15,7 @@
 
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
-  color: #0F3E99;
+  color: #3DA7BA;
 }
 
 .trigger :global(.vtex-store-icons-0-x-caretIcon) {

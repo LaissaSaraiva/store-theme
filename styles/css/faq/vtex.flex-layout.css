@@ -1,3 +1,8 @@
+.flexRow--faq {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 .flexRowContent--faq {
   max-width: 700px;
   margin: auto;
