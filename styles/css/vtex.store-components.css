@@ -1,9 +1,10 @@
 .notificationBarContainer {
-  background-color: #cde7cd;
-  color: #03034e;
+  background-color: #3F3F40;
+  color: #FFF;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
+
 }
 
 .newsletter {
