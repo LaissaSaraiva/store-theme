@@ -1,6 +1,6 @@
 {
   "modal-trigger#newsletter": {
-    "title": "Newsletter",
+    "title": "Modal - Newsletter",
     "props": {
       "trigger": "load-session",
       "blockClass": "newsletter"
