@@ -4,6 +4,7 @@ export interface ProductProps {
   productName?: string;
   productReferenceCode?: string;
   productPrice?: string;
+  productWishlist?: string;
   children?: React.ReactNode;
 }
 

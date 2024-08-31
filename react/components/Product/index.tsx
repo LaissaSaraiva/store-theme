@@ -6,6 +6,7 @@ import { ProductName } from "./ProductName";
 import { ProductPrice } from "./ProductPrice";
 import { ProductRatings } from "./ProductRatings";
 import { ProductReferenceCode } from "./ProductReferenceCode";
+import { ProductWishlist } from "./ProductWishlist";
 import { ProductWrapper } from "./ProductWrapper";
 import { schema } from "./schema";
 
@@ -19,6 +20,7 @@ const Product: StorefrontFunctionComponent<ProductProps> = (props) => {
       <ProductPrice price={props.productPrice} />
       <ProductImage src={props.productImage} />
       <ProductButton>{props.children}</ProductButton>
+      <ProductWishlist src={props.productWishlist} />
     </ProductWrapper>
   );
 };

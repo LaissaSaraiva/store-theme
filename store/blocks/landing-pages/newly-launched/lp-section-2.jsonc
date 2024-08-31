@@ -16,7 +16,8 @@
       "productRatings": "assets/images/product-ratings.png",
       "productName": "Aspirador de Pó Inteligente",
       "productReferenceCode": "Cod: 123456789",
-      "productPrice": "2159"
+      "productPrice": "2159",
+      "productWishlist": "assets/images/wishlist-icon.png"
     },
     "children": [
       // Se a LP fosse em uma PDP eu chamaria o bloco abaixo

@@ -29,5 +29,12 @@ export const schema = {
       description: "Escreva como String",
       type: "string",
     },
+    productWishlist: {
+      title: "Ícone de Wishlist",
+      type: "string",
+      widget: {
+        "ui:widget": "image-uploader",
+      },
+    },
   },
 };
