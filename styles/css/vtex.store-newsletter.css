@@ -1,0 +1,25 @@
+.newsletterForm {
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.defaultSuccessMessage {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3DA7BA;
+}
+
+.emailInputContainer :global(.vtex-input-prefix__group),
+.nameInputContainer :global(.vtex-input-prefix__group) {
+  border-color: #3DA7BA;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+  width: 100%;
+}

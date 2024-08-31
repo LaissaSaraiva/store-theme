@@ -1,18 +1,13 @@
 {
   "modal-trigger#newsletter": {
+    "title": "Newsletter",
     "props": {
-      "trigger": "load-session"
+      "trigger": "load-session",
+      "blockClass": "newsletter"
     },
     "children": ["modal-layout#newsletter"]
   },
   "modal-layout#newsletter": {
-    "children": ["flex-layout.row#section-newsletter"]
-  },
-  "flex-layout.row#section-newsletter": {
-    "title": "Newsletter",
-    "props": {
-      "blockClass": "section-newsletter"
-    },
     "children": ["image#newsletter", "newsletter-form"]
   },
   "image#newsletter": {

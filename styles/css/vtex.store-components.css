@@ -108,3 +108,15 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+.imageElement--newsletter {
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+@media only screen and (min-width: 640px) {
+  .imageElement--newsletter {
+    object-fit: cover;
+    aspect-ratio: auto;
+  }
+}
