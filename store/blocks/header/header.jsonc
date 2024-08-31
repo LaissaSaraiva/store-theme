@@ -114,7 +114,8 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/images/logo.svg",
-      "height": "20"
+      // "height": "15",
+      "width": 180
     }
   },
   "flex-layout.row#2-mobile": {
