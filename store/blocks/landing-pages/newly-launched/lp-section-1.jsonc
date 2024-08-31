@@ -6,8 +6,7 @@
       "paddingTop": 6,
       "paddingBottom": 6,
       "preserveLayoutOnMobile": false,
-      "horizontalAlign": "center",
-      "fullWidth": true
+      "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.col#section-1-col-1",

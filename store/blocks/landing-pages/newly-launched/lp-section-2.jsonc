@@ -4,7 +4,8 @@
     "props": {
       "blockClass": "newly-launched-section-2",
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "horizontalAlign": "center"
     },
     "children": ["flex-layout.col#section-2-col-1"]
   },

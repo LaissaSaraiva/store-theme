@@ -22,4 +22,18 @@
 
 .formSubmitContainer :global(.vtex-button) {
   width: 100%;
+  background-color: #3DA7BA;
+  border-color: #3DA7BA;
+  border-radius: 0;
+}
+
+.formSubmitContainer :global(.vtex-button):hover,
+.formSubmitContainer :global(.vtex-button):focus {
+  background-color: #1D2223;
+  border-color: #1D2223;
+}
+
+
+.element :global(.vtex-button__label) {
+  font-weight: 700;
 }

@@ -8,12 +8,17 @@
   width: 100%;
 }
 
+.flexRowContent--newly-launched-section-2 {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 @media screen and (min-width: 80rem) {
   .flexRow--newly-launched-section-2 {
     background-image: url(assets/images/retangle.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
-    max-width: 1366px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 }

@@ -6,10 +6,12 @@
   flex-wrap: wrap;
 }
 
-.productImg {
-  max-width: 450px;
-  height: auto;
-  object-fit: contain;
+@media screen and (min-width: 80rem) {
+  .productImg {
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+  }
 }
 
 .productDetails {
