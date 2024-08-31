@@ -102,13 +102,13 @@ vtex browse
 ### Preview
 
 - Home: <br/><br/>
-  ![Home Desktop](/assets/images/home-desktop.png)
+  ![Home - Desktop](/assets/images/home-desktop.png)
 
 - Landing Page:<br/><br/>
-  ![LP Desktop](/assets/images/lp-desktop.png)
+  ![LP - Desktop](/assets/images/lp-desktop.png)
 
 - Faq:<br/><br/>
-  ![FAQ - Desktop](/assets/images/lp-desktop.png)
+  ![FAQ - Desktop](/assets/images/faq-desktop.png)
 
 ## Tutorial VTEX IO
 
