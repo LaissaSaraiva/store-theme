@@ -4,6 +4,7 @@ import "./../../styles/css/Product/Product.css";
 import { ProductProps } from "./interfaces";
 import { ProductButton } from "./ProductButton";
 import { ProductImage } from "./ProductImage";
+import { ProductImageGallery } from "./ProductImageGallery";
 import { ProductName } from "./ProductName";
 import { ProductPrice } from "./ProductPrice";
 import { ProductRatings } from "./ProductRatings";
@@ -21,11 +22,13 @@ const handleBuyClick = (e: React.MouseEvent<HTMLButtonElement>) => {
 
 const Product: StorefrontFunctionComponent<ProductProps> = (props) => {
   const { handles } = useCssHandles(PRODUCT_HANDLES);
-
   return (
     <ProductWrapper>
-      <ProductImage src={props.productImage} />
-
+      {props.productGallery ? (
+        <ProductImageGallery items={props.productGallery} />
+      ) : (
+        <ProductImage src={props.productImage} />
+      )}
       <div className={handles.productDetails}>
         <ProductRatings productRatings={props.productRatings} />
         <ProductName productName={props.productName} />

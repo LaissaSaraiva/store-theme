@@ -36,5 +36,29 @@ export const schema = {
         "ui:widget": "image-uploader",
       },
     },
+    productGallery: {
+      title: "Galeria de Imagens",
+      type: "array",
+      items: {
+        title: "Itens",
+        type: "object",
+        properties: {
+          original: {
+            title: "Imagem Original",
+            type: "string",
+            widget: {
+              "ui:widget": "image-uploader",
+            },
+          },
+          thumbnail: {
+            title: "Thumbnail da Imagem",
+            type: "string",
+            widget: {
+              "ui:widget": "image-uploader",
+            },
+          },
+        },
+      },
+    },
   },
 };

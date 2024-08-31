@@ -21,9 +21,20 @@
       "productReferenceCode": "Cod: 123456789",
       "productPrice": "2159",
       "productWishlist": "assets/images/wishlist-icon.png"
+      // A galeria abaixo funciona, porém não consegui utilizar o css da lib. Ao descomentar aparecerá a galeria, porém desconfigurada. No contexto de produto da Vtex eu utilizaria como opção o bloco nativo "product-images"
+      // "productGallery": [
+      //   {
+      //     "original": "assets/images/product-image.png",
+      //     "thumbnail": "assets/images/product-image-thumbnail.png"
+      //   },
+      //   {
+      //     "original": "assets/images/product-1.png",
+      //     "thumbnail": "assets/images/product-1-thumbnail.png"
+      //   }
+      // ]
     },
     "children": [
-      // Se a LP fosse em uma PDP eu chamaria o bloco abaixo
+      // Se a LP fosse em uma PDP, eu utilizaria o bloco "add-to-cart-button" como children do meu componente.
       // "add-to-cart-button"
     ]
   }

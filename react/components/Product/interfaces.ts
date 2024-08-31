@@ -6,6 +6,10 @@ export interface ProductProps {
   productPrice?: string;
   productWishlist?: string;
   children?: React.ReactNode;
+  productGallery?: {
+    original?: string;
+    thumbnail?: string;
+  }[];
 }
 
 export interface ProductPriceProps {
@@ -19,4 +23,11 @@ export interface ProductImageProps {
 export interface ProductButtonProps {
   children?: React.ReactNode;
   onButtonClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
+}
+
+export interface ProductImageGalleryProps {
+  items: {
+    original?: string;
+    thumbnail?: string;
+  }[];
 }
