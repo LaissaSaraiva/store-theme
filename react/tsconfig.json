@@ -1,3 +1,7 @@
 {
-  "extends": "@vtex/tsconfig"
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "types": ["node"]
+  }
 }
