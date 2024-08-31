@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#section-product-description": {
+    "title": "LP - Product Description",
+    "props": {
+      "blockClass": "product-description",
+      "paddingTop": 6,
+      "paddingBottom": 0,
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.col#section-product-description-col-1"]
+  },
+  "flex-layout.col#section-product-description-col-1": {
+    "props": {},
+    "children": [
+      "rich-text#product-description",
+      "rich-text#product-specifications"
+    ]
+  },
+  "rich-text#product-description": {
+    "title": "LP - Product Description",
+    "props": {
+      "blockClass": ["product-details", "product-description"],
+      "text": " #### Descrição do produto \n- **Mapeamento Avançado**: Navegue pelo seu lar com precisão. O nosso aspirador de pó utiliza tecnologia de mapeamento para uma limpeza eficiente e personalizada. \n- **Controle por App**: Comande a limpeza de qualquer lugar. Ajuste horários e modos de limpeza pelo aplicativo no seu smartphone. \n- **Bateria de Longa Duração**: Mais tempo de limpeza, menos tempo carregando. Nosso robô oferece até X horas de autonomia.\n- **Detecção de Obstáculos**: Evite colisões e quedas com sensores de última geração que protegem seu lar e o aspirador."
+    }
+  },
+  "rich-text#product-specifications": {
+    "title": "LP - Product Specifications",
+    "props": {
+      "blockClass": ["product-details", "product-specifications"],
+      "text": " #### Especificações Técnicas \n- **Dimensões**: *Compacto, com 30cm de diâmetro e 7cm de altura.* \n- **Peso**: *Leve, apenas 4 kg.* \n- **Capacidade do Reservatório**: *Tanque de pó de 0,6L.* \n- **Conectividade**: *Compatível com Wi-Fi e Bluetooth.* \n- **Autonomia**: *Até X horas de uso contínuo.*"
+    }
+  }
+}
