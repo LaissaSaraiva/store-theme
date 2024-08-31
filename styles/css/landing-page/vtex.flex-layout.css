@@ -1,0 +1,9 @@
+.flexRowContent--newly-launched-section-1 {
+  padding-left: 18px;
+  padding-right: 18px;
+  align-items: center;
+}
+
+:global(.vtex-store-components-3-x-imageElement--section-1) {
+  width: 100%;
+}

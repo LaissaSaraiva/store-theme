@@ -88,3 +88,16 @@
     line-height: 1.3em;
   }
 }
+
+.container--section-1 {
+  max-width: 500px;
+}
+
+.container--section-1 .heading--section-1 {
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.container--section-1 .paragraph--section-1 {
+  font-size: 20px;
+}

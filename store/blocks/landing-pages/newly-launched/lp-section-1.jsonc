@@ -2,7 +2,12 @@
   "flex-layout.row#section-1": {
     "title": "LP - Section 1",
     "props": {
-      "blockClass": "newly-launched-section-1"
+      "blockClass": "newly-launched-section-1",
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "preserveLayoutOnMobile": false,
+      "horizontalAlign": "center",
+      "fullWidth": true
     },
     "children": [
       "flex-layout.col#section-1-col-1",
