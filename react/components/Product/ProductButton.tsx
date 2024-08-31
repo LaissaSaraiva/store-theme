@@ -9,7 +9,6 @@ const PRODUCT_BUTTON_HANDLES = [
 
 export const ProductButton: React.FC<ProductButtonProps> = ({ children }) => {
   const { handles } = useCssHandles(PRODUCT_BUTTON_HANDLES);
-  console.log(children, "children");
   return (
     <div className={handles.productButtonWrapper}>
       {children}

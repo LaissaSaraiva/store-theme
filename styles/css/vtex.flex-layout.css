@@ -12,6 +12,14 @@
 }
 
 @media screen and (min-width: 80rem) {
+  .flexRow--newly-launched-section-2 {
+    background-image: url(assets/images/retangle.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    max-width: 1366px;
+    margin: 0 auto;
+
+  }
 
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
