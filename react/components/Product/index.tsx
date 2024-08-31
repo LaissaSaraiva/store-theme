@@ -13,14 +13,13 @@ import { schema } from "./schema";
 const Product: StorefrontFunctionComponent<ProductProps> = (props) => {
   return (
     <ProductWrapper>
-      <h1>Inicia componente</h1>
+      <ProductImage src={props.productImage} />
       <ProductRatings productRatings={props.productRatings} />
       <ProductName productName={props.productName} />
       <ProductReferenceCode productReferenceCode={props.productReferenceCode} />
       <ProductPrice price={props.productPrice} />
-      <ProductImage src={props.productImage} />
-      <ProductButton>{props.children}</ProductButton>
       <ProductWishlist src={props.productWishlist} />
+      <ProductButton>{props.children}</ProductButton>
     </ProductWrapper>
   );
 };
