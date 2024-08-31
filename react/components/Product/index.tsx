@@ -14,6 +14,11 @@ import { schema } from "./schema";
 
 const PRODUCT_HANDLES = ["productDetails"] as const;
 
+const handleBuyClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  e.preventDefault();
+  alert("Produto adicionado ao Carrinho!");
+};
+
 const Product: StorefrontFunctionComponent<ProductProps> = (props) => {
   const { handles } = useCssHandles(PRODUCT_HANDLES);
 
@@ -29,7 +34,9 @@ const Product: StorefrontFunctionComponent<ProductProps> = (props) => {
         />
         <ProductPrice price={props.productPrice} />
         <ProductWishlist src={props.productWishlist} />
-        <ProductButton>{props.children}</ProductButton>
+        <ProductButton onButtonClick={handleBuyClick}>
+          {props.children}
+        </ProductButton>
       </div>
     </ProductWrapper>
   );

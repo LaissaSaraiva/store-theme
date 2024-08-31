@@ -7,12 +7,17 @@ const PRODUCT_BUTTON_HANDLES = [
   "productButton",
 ] as const;
 
-export const ProductButton: React.FC<ProductButtonProps> = ({ children }) => {
+export const ProductButton: React.FC<ProductButtonProps> = ({
+  children,
+  onButtonClick,
+}) => {
   const { handles } = useCssHandles(PRODUCT_BUTTON_HANDLES);
   return (
     <div className={handles.productButtonWrapper}>
       {children}
-      <button className={handles.productButton}>Comprar</button>
+      <button className={handles.productButton} onClick={onButtonClick}>
+        Comprar
+      </button>
     </div>
   );
 };

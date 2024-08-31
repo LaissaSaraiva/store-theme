@@ -18,4 +18,5 @@ export interface ProductImageProps {
 
 export interface ProductButtonProps {
   children?: React.ReactNode;
+  onButtonClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
