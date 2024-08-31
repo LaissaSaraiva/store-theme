@@ -14,3 +14,7 @@ export interface ProductPriceProps {
 export interface ProductImageProps {
   src?: string;
 }
+
+export interface ProductButtonProps {
+  children?: React.ReactNode;
+}

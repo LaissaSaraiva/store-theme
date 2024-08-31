@@ -17,6 +17,15 @@
       "productName": "Aspirador de Pó Inteligente",
       "productReferenceCode": "Cod: 123456789",
       "productPrice": "2159"
+    },
+    "children": [
+      // Se a LP fosse em uma PDP eu chamaria o bloco abaixo
+      // "add-to-cart-button"
+    ]
+  },
+  "add-to-cart-button": {
+    "props": {
+      "onClickBehavior": "add-to-cart"
     }
   }
 }
