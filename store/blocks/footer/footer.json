@@ -16,13 +16,12 @@
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer"
+      "vtex.menu@2.x:menu#footer-bags"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": "footer-menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 6
     }
   },
 
@@ -30,7 +29,9 @@
     "title": "Footer - Main",
     "children": ["accepted-payment-methods", "social-networks", "powered-by"],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "payment-methods",
+      "paddingTop": 6,
+      "paddingBottom": 6
     }
   },
   "accepted-payment-methods": {
@@ -71,7 +72,7 @@
     "title": "Footer - Bottom",
     "children": ["rich-text#footer-copyright"],
     "props": {
-      "blockClass": "credits"
+      "blockClass": "copyright"
     }
   },
 
@@ -115,7 +116,7 @@
   "rich-text#footer-copyright": {
     "title": "Footer - copyright",
     "props": {
-      "text": "© 2024 ClearChoicePantry Innovations. Todos os direitos reservados.\n *ClearChoicePantry* é uma marca registrada. Todas as imagens, textos, e conteúdos deste site são protegidos por leis de direitos autorais e propriedade intelectual. Qualquer reprodução, distribuição, ou uso não autorizado dos materiais presentes neste site é estritamente proibido sem o consentimento prévio por escrito de ClearChoicePantry Innovations.",
+      "text": "© 2024 ClearChoicePantry Innovations. Todos os direitos reservados.\n *ClearChoicePantry* é uma marca registrada. Todas as imagens, textos, e conteúdos deste site são protegidos por leis de direitos autorais e propriedade intelectual.\n Qualquer reprodução, distribuição, ou uso não autorizado dos materiais presentes neste site é estritamente proibido sem o consentimento prévio por escrito de ClearChoicePantry Innovations.",
       "blockClass": "footer"
     }
   }

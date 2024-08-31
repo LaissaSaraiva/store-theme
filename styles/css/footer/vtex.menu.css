@@ -1,0 +1,22 @@
+.menuContainer {
+  gap: 20px;
+}
+
+.styledLinkContainer {
+  margin: unset;
+}
+
+.styledLink {
+  font-weight: 500;
+}
+
+.submenuAccordion {
+  padding-left: 4px;
+  font-weight: 400;
+}
+
+.styledLink,
+.submenuAccordion,
+.accordionIcon {
+  color: #EEEEEE;
+}

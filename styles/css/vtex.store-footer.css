@@ -1,3 +1,22 @@
+.footerLayout {
+  background-color: #191B13;
+  padding: 10px;
+}
+
+.acceptedPaymentMethodContainer,
+.socialNetworksContainer,
+.poweredBy {
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  width: 100%;
+}
+
+.poweredByImage {
+  height: 40px;
+  object-fit: contain;
+}
+
 .row--menu-row {
   padding-right: 24px;
 }
