@@ -1,65 +1,115 @@
-# Store theme
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
+# Projeto VTEX Store Theme
 
-## Preview
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
+Este repositório contém um projeto baseado no store theme da VTEX. Este guia fornecerá informações sobre como configurar e rodar o projeto localmente.
 
-## Tutorial
+## Requisitos
+
+Antes de começar, verifique se você tem os seguintes requisitos instalados:
+
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+- [VTEX CLI](https://developers.vtex.com/docs/guides/vtex-io-documentation-vtex-io-cli-installation-and-command-reference)
+
+## Instalação
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/LaissaSaraiva/store-theme.git
+   cd seu-repositorio
+   ```
+
+2. **Instale as dependências:**
+
+Na pasta react do projeto e execute:
+
+```bash
+yarn install
+```
+
+## Configuração
+
+1. **Configure o VTEX CLI:**
+
+Você precisa estar autenticado com o VTEX CLI. Caso não esteja autenticado, execute:
+
+```bash
+vtex login seu-vendor
+```
+
+Substitua 'seu-vendor' pelo nome da sua conta VTEX.
+
+## Executando o Projeto
+
+Para rodar o projeto localmente, siga estes passos:
+
+1. **Configure o ambiente de desenvolvimento:**
+
+```bash
+vtex use sua-dev-workspace
+```
+
+2. **Inicie o projeto:**
+
+```bash
+ vtex link
+```
+
+3. **Visualize o projeto:**
+
+```bash
+vtex browse
+```
+
+4. **Configure um template para a HOME:**
+   Caso a Home não esteja aparecendo, acesse
+   `/admin/cms/pages` e selecione um Template para a mesma.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- React
+- TypeScript
+- plataforma VTEX IO
+
+## Rotas do Projeto
+
+- Home: `/`
+- Landing Page: `/newly-launched`
+- Perguntas Frequentes: `/faq`
+
+## Componentes e Funcionalidades
+
+### Header, Footer, Home e FAQ
+
+- **Tecnologias Utilizadas:** Componentes nativos da VTEX.
+
+### Landing Page
+
+- **Tecnologias Utilizadas:** Componentes nativos da VTEX e componentes customizados.
+- **Componente Customizado:**
+  - Nome: Product (custom-product)
+  - Tecnologias Utilizadas: React, TypeScript, useCssHandles da VTEX e tipagem StorefrontFunctionComponent para criação do schema.
+  - Funcionalidade: O componente é editável via site-editor e foi preenchido por props no bloco jsonc do componente.
+  - Organização do Site Editor: Reorganizei os titles para o site-editor para melhorar a experiência do cliente ao realizar alterações na loja.
+
+### Observações
+
+- **Imagens**: As imagens do projeto estão na pasta `assets`. Porém, normalmente utilizo o `admin/new-cms/media-gallery` ou `admin/a`.
+
+### Preview
+
+- Home: <br/><br/>
+  ![Home Desktop](/assets/images/home-desktop.png)
+
+- Landing Page:<br/><br/>
+  ![LP Desktop](/assets/images/lp-desktop.png)
+
+- Faq:<br/><br/>
+  ![FAQ - Desktop](/assets/images/lp-desktop.png)
+
+## Tutorial VTEX IO
+
 To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
-
-## Dependencies
-All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
-
-Store framework is the baseline to create any store using _VTEX IO Web Framework_.
-- [Store](https://github.com/vtex-apps/store/blob/master/README.md)
-
-Store GraphQL is a middleware to access all VTEX APIs.
-- [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
-
-### Store Component Apps
-- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
-- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
-- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
-- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
-- [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
-- [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
-- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
-- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
-- [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
-- [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
-- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
-- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
-- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
-- [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md) 
-
-### Store Pixel Apps
-
- - [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
- - [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
-
-## Contributing
-
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.hugoccosta.com"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Hugo Costa</b></sub></a><br /><a href="https://github.com/vtex-apps/store-theme/commits?author=hugocostadev" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
