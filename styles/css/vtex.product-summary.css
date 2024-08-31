@@ -43,10 +43,6 @@
   border-radius: 0.25rem;
 }
 
-.element {
-  /* background-color: aquamarine; */
-}
-
 .element :global(.vtex-button) {
   background-color: #1D2223;
   border-color: #1D2223;

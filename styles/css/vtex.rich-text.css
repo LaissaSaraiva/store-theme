@@ -11,12 +11,14 @@
 }
 
 .heading--shelfTitle {
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   color: #1D2223;
 }
 
 .headingLevel2 {
+  font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
   color: #1D2223;
@@ -75,6 +77,20 @@
   font-weight: 700;
 }
 
+.container--section-1 {
+  max-width: 500px;
+}
+
+.container--section-1 .heading--section-1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.container--section-1 .paragraph--section-1 {
+  font-size: 16px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -97,16 +113,12 @@
   }
 }
 
-.container--section-1 {
-  max-width: 500px;
-}
+@media only screen and (min-width: 1024px) {
+  .container--section-1 .heading--section-1 {
+    font-size: 45px;
+  }
 
-.container--section-1 .heading--section-1 {
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 45px;
-}
-
-.container--section-1 .paragraph--section-1 {
-  font-size: 20px;
+  .container--section-1 .paragraph--section-1 {
+    font-size: 20px;
+  }
 }

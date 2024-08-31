@@ -2,7 +2,9 @@
   "flex-layout.row#section-3": {
     "title": "LP - Section 3",
     "props": {
-      "blockClass": "newly-launched-section-3"
+      "blockClass": "newly-launched-section-3",
+      "paddingTop": 6,
+      "paddingBottom": 6
     },
     "children": ["flex-layout.col#section-3-col-1"]
   },

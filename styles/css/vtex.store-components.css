@@ -1,5 +1,5 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
+  background-color: #cde7cd;
   color: #03034e;
   font-weight: 700;
   font-size: 12px;
@@ -58,6 +58,28 @@
   margin: 1rem 0;
 }
 
+.infoCardContainer--info-card-main :global(.vtex-button) {
+  border-radius: 0;
+  background-color: #FFF;
+}
+
+.infoCardContainer--info-card-main :global(.vtex-button):hover,
+.infoCardContainer--info-card-main :global(.vtex-button):focus {
+  border-color: #3DA7BA;
+  background-color: #3DA7BA;
+}
+
+.infoCardContainer--info-card-main :global(.vtex-button):hover :global(.vtex-button__label),
+.infoCardContainer--info-card-main :global(.vtex-button):focus :global(.vtex-button__label) {
+  color: #FFFFFF;
+}
+
+.infoCardContainer--info-card-main :global(.vtex-button__label) {
+  color: #3DA7BA;
+  font-weight: 600;
+}
+
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
@@ -65,14 +87,6 @@
 
   .label {
     font-size: 40px;
-  }
-
-  .infoCardContainer--info-card-home .infoCardTextContainer {
-    width: 30%;
-  }
-
-  .infoCardContainer--info-card-home .infoCardImageContainer {
-    width: 70%;
   }
 
   .imageElement--storePrint {
@@ -126,11 +140,21 @@
 }
 
 .infoCardTextContainer--info-card-main .heading--info-card-main {
+  font-weight: 900;
   text-transform: uppercase;
-  font-size: 45px;
-  font-weight: 700;
+  font-size: 30px;
 }
 
 .paragraph--info-card-main {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .infoCardTextContainer--info-card-main .heading--info-card-main {
+    font-size: 45px;
+  }
+
+  .paragraph--info-card-main {
+    font-size: 20px;
+  }
 }
