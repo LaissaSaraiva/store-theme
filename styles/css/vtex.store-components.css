@@ -120,3 +120,13 @@
     aspect-ratio: auto;
   }
 }
+
+.infoCardTextContainer--info-card-main {
+  padding: 0 18px;
+}
+
+.infoCardTextContainer--info-card-main .heading--info-card-main {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+}

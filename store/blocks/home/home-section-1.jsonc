@@ -2,7 +2,13 @@
   "flex-layout.row#home-section-1": {
     "title": "Home - Section 1",
     "props": {
-      "blockClass": "home-section-1"
+      "blockClass": "home-section-1",
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "paddingBottom": 6,
+      "paddingTop": 6
     },
     "children": ["info-card#main"]
   },
