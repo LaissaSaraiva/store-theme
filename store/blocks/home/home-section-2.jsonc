@@ -15,7 +15,7 @@
   "rich-text#shelf-title": {
     "title": "Shelf Title",
     "props": {
-      "text": "## Novidades",
+      "text": "### Novidades",
       "blockClass": "shelfTitle"
     }
   },

@@ -29,3 +29,9 @@
   padding-right: .5rem;
   min-height: 550px;
 }
+
+
+.paginationDot--shelf--isActive {
+  background-color: #1D2223;
+
+}

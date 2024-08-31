@@ -32,9 +32,9 @@
 
 .savings--summary {
   background: #8BC34A;
-  border-radius: 1000px;
-  align-items: center;
+  border-radius: 0px;
   display: flex;
+  align-items: center;
 
   padding-left: 0.5rem;
   padding-right: 0.5rem;

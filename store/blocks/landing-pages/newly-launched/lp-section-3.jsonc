@@ -13,7 +13,7 @@
   "rich-text#section-3-shelf-title": {
     "title": "Shelf Title",
     "props": {
-      "text": "## Confira outras Novidades",
+      "text": "### Confira outras Novidades",
       "blockClass": "shelfTitle"
     }
   }

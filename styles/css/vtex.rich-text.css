@@ -10,8 +10,10 @@
   text-align: center;
 }
 
-.headingLevel2--shelfTitle {
-  font-weight: 200;
+.heading--shelfTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1D2223;
 }
 
 .container--deals .paragraph {
